@@ -13,7 +13,7 @@ game.ReplicatedStorage:FindFirstChild(".gg/untitledhood"):FireServer(
     "Reload",
     {
         Name = "[Revolver]",
-        Ammo = game:GetService("Players").LocalPlayer.DataFolder.Currency,
-        MaxAmmo = {Value = 999999999999999999 * 2}
+        Ammo = game:GetService("Players").LocalPlayer.DataFolder.Currency, --path value you wanna change :)
+        MaxAmmo = {Value = 999999999999999999 * 9} -- value you want it to change into :D
     }
 ) 
